@@ -1,0 +1,81 @@
+body  {
+
+    background: black;
+    color: white;
+    margin: 0px;
+    padding-bottom:  50px;
+}
+
+header  {
+
+    font-size: 76px;
+    color: red;
+    border-bottom: solid 3px blueviolet;
+    padding: 20px;
+
+    font-family: "Honk", system-ui;
+}
+
+.chama-video-intro  {
+    background: rgb(0 255 148);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+
+    font-family: "Stylish", serif;
+    
+}
+
+.chama-texto  {
+margin-right: 3%;
+
+}
+
+h2  {
+font-size: 53px;
+color: blue;
+}
+
+p  {
+font-size: 46px;
+color: blueviolet;
+
+}
+
+img  {
+height: 200px;
+
+}
+
+.indicacao-filmes  {
+display: flex;
+overflow-x: auto;
+gap: 15px;
+
+}
+
+.sugestoes  {
+padding-top: 20px;
+
+}
+
+.indicacao-filmes img  {
+opacity: 0.5;
+
+}
+    .indicacao-filmes img:hover {
+opacity: 1;
+border: solid red 4px;
+    }
+
+    .sugestoes h3  {
+        font-family: "Honk", system-ui;
+        font-size: 55px;
+
+
+    }
+
+
+
+
